@@ -1,11 +1,14 @@
 {
-  "name": "graph",
-  "widgetName": "Graph",
+  "name": "protable",
+  "widgetName": "ProTable",
   "version": "1.1.0",
   "description": "My widget description",
   "packagePath": "mendixcn",
   "author": "wengao.liu@siemens.com",
   "dependencies": {
+    "@ant-design/icons": "4.7.0",
+    "@ant-design/pro-components": "1.1.1",
+    "antd": "4.20.5",
     "ahooks": "^3.3.10",
     "classnames": "^2.2.6"
   },
@@ -20,7 +23,7 @@
     "release": "pluggable-widgets-tools release:web",
     "openTestProject": "start tests/testProject/testProject.mpr",
     "backupTestProject": "cmd /c (if not exist dummy\\deployment\\data\\database\\hsqldb\\default (mkdir dummy\\deployment\\data\\database\\hsqldb\\default) else (echo skip 1)) && (if not exist dummy\\widgets (mkdir dummy\\widgets) else (echo skip 2)) && copy tests\\testProject\\testProject.mpr dummy\\ /Y && copy tests\\testProject\\deployment\\data\\database\\hsqldb\\default\\default.script dummy\\deployment\\data\\database\\hsqldb\\default\\",
-    "postbackupTestProject": "cmd /c copy tests\\testProject\\widgets\\mendixcn.Graph.mpk dummy\\widgets\\",
+    "postbackupTestProject": "cmd /c copy tests\\testProject\\widgets\\mendixcn.ProTable.mpk dummy\\widgets\\",
     "restoreTestProject": "shx cp -r dummy/* tests/testProject/"
   },
   "copyright": "2020 Mendix Technology BV",

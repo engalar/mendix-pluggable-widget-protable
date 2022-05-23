@@ -1,8 +1,8 @@
 import { createElement, useMemo } from "react";
-import { GraphContainerProps } from "../typings/GraphProps";
+import { ProTableContainerProps } from "../typings/ProTableProps";
 import { ValueStatus } from "mendix";
 
-export default function (props: GraphContainerProps) {
+export default function (props: ProTableContainerProps) {
     console.log(eval("{a:1}"));
     const value = useMemo(() => {
         if (props.attribute && props.attribute.status === ValueStatus.Available) {
