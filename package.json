@@ -1,7 +1,7 @@
 {
   "name": "protable",
   "widgetName": "ProTable",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "My widget description",
   "packagePath": "mendixcn",
   "author": "wengao.liu@siemens.com",
@@ -37,6 +37,7 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
+    "@babel/runtime": "~7.18.0",
     "@mendix/pluggable-widgets-tools": "^9.11.1",
     "@types/big.js": "^6.0.2",
     "@types/classnames": "^2.2.4",
@@ -46,6 +47,7 @@
     "shx": "^0.3.4",
     "mime": "^2.6.0",
     "rollup": "^2.73.0",
+    "less": "^4.1.2",
     "prettier": "^2.6.2",
     "eslint": "^8.15.0",
     "xml2js": "^0.4.23",
