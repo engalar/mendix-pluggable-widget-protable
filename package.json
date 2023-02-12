@@ -39,7 +39,7 @@
   "devDependencies": {
     "less-plugin-npm-import": "^2.1.0",
     "@babel/runtime": "~7.18.0",
-    "@mendix/pluggable-widgets-tools": "^9.11.1",
+    "@mendix/pluggable-widgets-tools": "^9.20.0",
     "@types/big.js": "^6.0.2",
     "@types/classnames": "^2.2.4",
     "@types/lodash-es": "^4.17.5",
